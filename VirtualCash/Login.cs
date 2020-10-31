@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace VirtualCash
 {
@@ -15,6 +7,13 @@ namespace VirtualCash
         public Login()
         {
             InitializeComponent();
+        }
+
+        private void LinkNuevoRegistro_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Registro _registro = new Registro();
+            this.Hide();
+            _registro.ShowDialog();
         }
     }
 }

@@ -47,10 +47,6 @@
             this.rbtnSI = new System.Windows.Forms.RadioButton();
             this.rbtnNO = new System.Windows.Forms.RadioButton();
             this.BtnConfirmar = new System.Windows.Forms.Button();
-            this.lblUsuario = new System.Windows.Forms.Label();
-            this.lblContraseña = new System.Windows.Forms.Label();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.txtContraseña = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblRegistro
@@ -208,56 +204,19 @@
             // 
             // BtnConfirmar
             // 
-            this.BtnConfirmar.Location = new System.Drawing.Point(176, 356);
+            this.BtnConfirmar.Location = new System.Drawing.Point(156, 284);
             this.BtnConfirmar.Name = "BtnConfirmar";
-            this.BtnConfirmar.Size = new System.Drawing.Size(120, 23);
+            this.BtnConfirmar.Size = new System.Drawing.Size(164, 42);
             this.BtnConfirmar.TabIndex = 9;
             this.BtnConfirmar.Text = "Confirmar";
             this.BtnConfirmar.UseVisualStyleBackColor = true;
             this.BtnConfirmar.Click += new System.EventHandler(this.BtnConfirmar_Click);
             // 
-            // lblUsuario
-            // 
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Location = new System.Drawing.Point(87, 289);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(43, 13);
-            this.lblUsuario.TabIndex = 19;
-            this.lblUsuario.Text = "Usuario";
-            // 
-            // lblContraseña
-            // 
-            this.lblContraseña.AutoSize = true;
-            this.lblContraseña.Location = new System.Drawing.Point(78, 318);
-            this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(61, 13);
-            this.lblContraseña.TabIndex = 20;
-            this.lblContraseña.Text = "Contraseña";
-            // 
-            // txtUsuario
-            // 
-            this.txtUsuario.Location = new System.Drawing.Point(156, 282);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(164, 20);
-            this.txtUsuario.TabIndex = 21;
-            // 
-            // txtContraseña
-            // 
-            this.txtContraseña.Location = new System.Drawing.Point(156, 311);
-            this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.PasswordChar = '*';
-            this.txtContraseña.Size = new System.Drawing.Size(164, 20);
-            this.txtContraseña.TabIndex = 22;
-            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(405, 419);
-            this.Controls.Add(this.txtContraseña);
-            this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.lblContraseña);
-            this.Controls.Add(this.lblUsuario);
+            this.ClientSize = new System.Drawing.Size(361, 347);
             this.Controls.Add(this.BtnConfirmar);
             this.Controls.Add(this.rbtnNO);
             this.Controls.Add(this.rbtnSI);
@@ -305,9 +264,5 @@
         private System.Windows.Forms.RadioButton rbtnSI;
         private System.Windows.Forms.RadioButton rbtnNO;
         private System.Windows.Forms.Button BtnConfirmar;
-        private System.Windows.Forms.Label lblUsuario;
-        private System.Windows.Forms.Label lblContraseña;
-        private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.TextBox txtContraseña;
     }
 }

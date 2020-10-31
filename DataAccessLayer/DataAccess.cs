@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccessLayer
 {
     public class DataAccess
     {
-        public SqlConnection conexion;  
+        public SqlConnection conexion;
         /// <summary>
         /// Después del @ tienen que poner la cadena de conexión que haya en su BDD en ssms
         /// </summary>

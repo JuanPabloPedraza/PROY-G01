@@ -1,10 +1,5 @@
 ﻿using DataAccessLayer;
 using Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BussinessLogicLayer
 {
@@ -24,5 +19,9 @@ namespace BussinessLogicLayer
             return _dataTitular.SaveTitular(_titular);
         }
 
+        public int SavePosibleTitular(Titular _titular)
+        {
+            return _dataTitular.SavePosibleTitular(_titular);
+        }
     }
 }

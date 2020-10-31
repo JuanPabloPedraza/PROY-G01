@@ -1,13 +1,6 @@
 ﻿using BussinessLogicLayer;
 using Entities;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace VirtualCash
@@ -28,7 +21,8 @@ namespace VirtualCash
 
 
         #region Metodos
-        private void SaveDataTitular()
+
+        private void SendDataTitular()
         {
             _titular.Apellido = txtApellido.Text;
             _titular.Nombre = txtNombre.Text;
@@ -45,12 +39,12 @@ namespace VirtualCash
             {
                 _titular.Adicional = "No";
             }
-            _busTitular.SaveTitular(_titular);
+            _busTitular.SavePosibleTitular(_titular);
         }
 
         private void ClearTemplate()
         {
-            foreach(Control tex in this.Controls)
+            foreach (Control tex in this.Controls)
             {
                 if (tex is TextBox)
                 {
@@ -64,7 +58,7 @@ namespace VirtualCash
 
         private void BtnConfirmar_Click(object sender, EventArgs e)
         {
-            SaveDataTitular();
+            SendDataTitular();
             ClearTemplate();
         }
     }

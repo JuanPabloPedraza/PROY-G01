@@ -107,15 +107,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="VirtualCashDb.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="VirtualCashDb_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>VirtualCashDb.mdf</DependentUpon>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
       <Project>{ef9aa1fa-f18f-4374-93b5-a0d92ff7dc5a}</Project>
       <Name>DataAccessLayer</Name>

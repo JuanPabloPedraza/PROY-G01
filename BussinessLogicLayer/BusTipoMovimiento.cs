@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BussinessLogicLayer
 {
-    class BusTipoMovimiento
+    public class BusTipoMovimiento
     {
     }
 }

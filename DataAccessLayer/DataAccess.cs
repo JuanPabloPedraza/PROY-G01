@@ -10,7 +10,9 @@ namespace DataAccessLayer
 {
     public class DataAccess
     {
-        public SqlConnection conexion;
+        public SqlConnection conexion;  /// <summary>
+        /// Después del @ tienen que poner la cadena de conexión que haya en su BDD en ssms
+        /// </summary>
         public string CadenaDeConexion = @""
         ;
 

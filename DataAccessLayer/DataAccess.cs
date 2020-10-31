@@ -14,9 +14,10 @@ namespace DataAccessLayer
         /// <summary>
         /// Después del @ tienen que poner la cadena de conexión que haya en su BDD en ssms
         /// </summary>
-        public string CadenaDeConexion = @"Data Source=(LocalDB)\MSSQLLocalDB;
-                                         AttachDbFilename=""F:\Programación 2020\HACKATON\VirtualCash\VirtualCash\VirtualCashDb.mdf"";
-                                         Integrated Security=True"
+        public string CadenaDeConexion = @"Integrated Security=SSPI;
+                                            Persist Security Info=False;
+                                            Initial Catalog=DbVirtualCash;
+                                            Data Source=DESKTOP-S279OM7\SQLEXPRESS"
         ;
 
         public DataAccess()

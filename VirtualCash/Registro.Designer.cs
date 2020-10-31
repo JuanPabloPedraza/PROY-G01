@@ -46,7 +46,7 @@
             this.lblTitular = new System.Windows.Forms.Label();
             this.rbtnSI = new System.Windows.Forms.RadioButton();
             this.rbtnNO = new System.Windows.Forms.RadioButton();
-            this.btnConfirmar = new System.Windows.Forms.Button();
+            this.BtnConfirmar = new System.Windows.Forms.Button();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblContraseña = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
@@ -131,49 +131,49 @@
             this.txtApellido.Location = new System.Drawing.Point(156, 53);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(164, 20);
-            this.txtApellido.TabIndex = 8;
+            this.txtApellido.TabIndex = 0;
             // 
             // txtCorreo
             // 
             this.txtCorreo.Location = new System.Drawing.Point(156, 207);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(164, 20);
-            this.txtCorreo.TabIndex = 9;
+            this.txtCorreo.TabIndex = 6;
             // 
             // txtAlernativo
             // 
             this.txtAlernativo.Location = new System.Drawing.Point(156, 181);
             this.txtAlernativo.Name = "txtAlernativo";
             this.txtAlernativo.Size = new System.Drawing.Size(164, 20);
-            this.txtAlernativo.TabIndex = 10;
+            this.txtAlernativo.TabIndex = 5;
             // 
             // txtContacto
             // 
             this.txtContacto.Location = new System.Drawing.Point(156, 155);
             this.txtContacto.Name = "txtContacto";
             this.txtContacto.Size = new System.Drawing.Size(164, 20);
-            this.txtContacto.TabIndex = 11;
+            this.txtContacto.TabIndex = 4;
             // 
             // txtDNI
             // 
             this.txtDNI.Location = new System.Drawing.Point(156, 128);
             this.txtDNI.Name = "txtDNI";
             this.txtDNI.Size = new System.Drawing.Size(164, 20);
-            this.txtDNI.TabIndex = 12;
+            this.txtDNI.TabIndex = 3;
             // 
             // txtCuil
             // 
             this.txtCuil.Location = new System.Drawing.Point(156, 103);
             this.txtCuil.Name = "txtCuil";
             this.txtCuil.Size = new System.Drawing.Size(164, 20);
-            this.txtCuil.TabIndex = 13;
+            this.txtCuil.TabIndex = 2;
             // 
             // txtNombre
             // 
             this.txtNombre.Location = new System.Drawing.Point(156, 79);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(164, 20);
-            this.txtNombre.TabIndex = 14;
+            this.txtNombre.TabIndex = 1;
             // 
             // lblTitular
             // 
@@ -190,7 +190,7 @@
             this.rbtnSI.Location = new System.Drawing.Point(156, 243);
             this.rbtnSI.Name = "rbtnSI";
             this.rbtnSI.Size = new System.Drawing.Size(35, 17);
-            this.rbtnSI.TabIndex = 16;
+            this.rbtnSI.TabIndex = 7;
             this.rbtnSI.TabStop = true;
             this.rbtnSI.Text = "SI";
             this.rbtnSI.UseVisualStyleBackColor = true;
@@ -201,19 +201,20 @@
             this.rbtnNO.Location = new System.Drawing.Point(197, 243);
             this.rbtnNO.Name = "rbtnNO";
             this.rbtnNO.Size = new System.Drawing.Size(41, 17);
-            this.rbtnNO.TabIndex = 17;
+            this.rbtnNO.TabIndex = 8;
             this.rbtnNO.TabStop = true;
             this.rbtnNO.Text = "NO";
             this.rbtnNO.UseVisualStyleBackColor = true;
             // 
-            // btnConfirmar
+            // BtnConfirmar
             // 
-            this.btnConfirmar.Location = new System.Drawing.Point(176, 356);
-            this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(120, 23);
-            this.btnConfirmar.TabIndex = 18;
-            this.btnConfirmar.Text = "Confirmar";
-            this.btnConfirmar.UseVisualStyleBackColor = true;
+            this.BtnConfirmar.Location = new System.Drawing.Point(176, 356);
+            this.BtnConfirmar.Name = "BtnConfirmar";
+            this.BtnConfirmar.Size = new System.Drawing.Size(120, 23);
+            this.BtnConfirmar.TabIndex = 9;
+            this.BtnConfirmar.Text = "Confirmar";
+            this.BtnConfirmar.UseVisualStyleBackColor = true;
+            this.BtnConfirmar.Click += new System.EventHandler(this.BtnConfirmar_Click);
             // 
             // lblUsuario
             // 
@@ -257,7 +258,7 @@
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblUsuario);
-            this.Controls.Add(this.btnConfirmar);
+            this.Controls.Add(this.BtnConfirmar);
             this.Controls.Add(this.rbtnNO);
             this.Controls.Add(this.rbtnSI);
             this.Controls.Add(this.lblTitular);
@@ -303,7 +304,7 @@
         private System.Windows.Forms.Label lblTitular;
         private System.Windows.Forms.RadioButton rbtnSI;
         private System.Windows.Forms.RadioButton rbtnNO;
-        private System.Windows.Forms.Button btnConfirmar;
+        private System.Windows.Forms.Button BtnConfirmar;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblContraseña;
         private System.Windows.Forms.TextBox txtUsuario;

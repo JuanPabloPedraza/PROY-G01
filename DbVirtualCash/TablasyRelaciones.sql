@@ -59,7 +59,7 @@ go
 -- // Si no se comprende, pregunten.
 
 create table Movimiento(
-ID int primary Key identity not null, 
+Id int primary Key identity not null, 
 Importe decimal(18, 2) not null,
 Fecha DateTime not null,
 Descripcion nvarchar(100),

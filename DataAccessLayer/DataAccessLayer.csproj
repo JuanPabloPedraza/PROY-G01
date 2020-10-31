@@ -44,6 +44,7 @@
     <Compile Include="DataAccess.cs" />
     <Compile Include="DataCuenta.cs" />
     <Compile Include="DataMovimiento.cs" />
+    <Compile Include="DataSendMailConfirmation.cs" />
     <Compile Include="DataTarjeta.cs" />
     <Compile Include="DataTipoMovimiento.cs" />
     <Compile Include="DataTitular.cs" />

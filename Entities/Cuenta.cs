@@ -8,7 +8,6 @@ namespace Entities
 {
     public class Cuenta
     {
-
         public int Id { get; set; }
         public int NroCuenta { get; set; }
         public int CVU { get; set; }

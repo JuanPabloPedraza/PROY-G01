@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace VirtualCash
 {
-    public partial class Registro : Form
+    public partial class Login : Form
     {
-        public Registro()
+        public Login()
         {
             InitializeComponent();
         }

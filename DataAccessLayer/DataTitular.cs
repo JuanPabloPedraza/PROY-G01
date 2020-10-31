@@ -26,8 +26,8 @@ namespace DataAccessLayer
                                                   @CUIL,
                                                   @DNI,
                                                   @Contacto,
-                                                  @contactoAlternativo,
-                                                  @correo,
+                                                  @ContactoAlternativo,
+                                                  @Correo,
                                                   @Adicional)"
             ;
 
@@ -36,8 +36,8 @@ namespace DataAccessLayer
             SqlParameter cUIL = new SqlParameter("@CUIL", _titular.CUIL);
             SqlParameter dNI = new SqlParameter("@DNI", _titular.DNI);
             SqlParameter contacto = new SqlParameter("@Contacto", _titular.Contacto);
-            SqlParameter contactoAlternativo = new SqlParameter("@contactoAlternativo", _titular.ContactoAlternativo);
-            SqlParameter correo = new SqlParameter("@correo", _titular.Correo);
+            SqlParameter contactoAlternativo = new SqlParameter("@ContactoAlternativo", _titular.ContactoAlternativo);
+            SqlParameter correo = new SqlParameter("@Correo", _titular.Correo);
             SqlParameter adicional = new SqlParameter("@Adicional", _titular.Adicional);
 
             SqlCommand cmd = new SqlCommand(query, conexion);

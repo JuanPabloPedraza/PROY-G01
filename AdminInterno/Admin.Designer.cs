@@ -54,6 +54,7 @@
             this.lblSolicitudes = new System.Windows.Forms.Label();
             this.dGVAdmin = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnAdmActualizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dGVAdmin)).BeginInit();
             this.SuspendLayout();
             // 
@@ -260,7 +261,7 @@
             // dGVAdmin
             // 
             this.dGVAdmin.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dGVAdmin.Location = new System.Drawing.Point(85, 48);
+            this.dGVAdmin.Location = new System.Drawing.Point(50, 64);
             this.dGVAdmin.Name = "dGVAdmin";
             this.dGVAdmin.Size = new System.Drawing.Size(400, 408);
             this.dGVAdmin.TabIndex = 54;
@@ -274,11 +275,22 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // btnAdmActualizar
+            // 
+            this.btnAdmActualizar.Location = new System.Drawing.Point(50, 495);
+            this.btnAdmActualizar.Name = "btnAdmActualizar";
+            this.btnAdmActualizar.Size = new System.Drawing.Size(112, 23);
+            this.btnAdmActualizar.TabIndex = 79;
+            this.btnAdmActualizar.Text = "Actualizar datos";
+            this.btnAdmActualizar.UseVisualStyleBackColor = true;
+            this.btnAdmActualizar.Click += new System.EventHandler(this.btnAdmActualizar_Click);
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(862, 497);
+            this.ClientSize = new System.Drawing.Size(862, 579);
+            this.Controls.Add(this.btnAdmActualizar);
             this.Controls.Add(this.btnAdmAltaUsuario);
             this.Controls.Add(this.cBAdmNO);
             this.Controls.Add(this.cBAdmSi);
@@ -341,5 +353,6 @@
         private System.Windows.Forms.Label lblSolicitudes;
         private System.Windows.Forms.DataGridView dGVAdmin;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAdmActualizar;
     }
 }

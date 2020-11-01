@@ -36,7 +36,7 @@
             this.txtAdmCorreoE = new System.Windows.Forms.TextBox();
             this.txtAdmContacAltern = new System.Windows.Forms.TextBox();
             this.txtAdmContacto = new System.Windows.Forms.TextBox();
-            this.txtAdmTitular = new System.Windows.Forms.TextBox();
+            this.txtAdmDNI = new System.Windows.Forms.TextBox();
             this.txtAdmCuil = new System.Windows.Forms.TextBox();
             this.txtAdmNombre = new System.Windows.Forms.TextBox();
             this.txtAdmApellido = new System.Windows.Forms.TextBox();
@@ -122,12 +122,12 @@
             this.txtAdmContacto.Size = new System.Drawing.Size(100, 20);
             this.txtAdmContacto.TabIndex = 71;
             // 
-            // txtAdmTitular
+            // txtAdmDNI
             // 
-            this.txtAdmTitular.Location = new System.Drawing.Point(609, 139);
-            this.txtAdmTitular.Name = "txtAdmTitular";
-            this.txtAdmTitular.Size = new System.Drawing.Size(100, 20);
-            this.txtAdmTitular.TabIndex = 70;
+            this.txtAdmDNI.Location = new System.Drawing.Point(609, 139);
+            this.txtAdmDNI.Name = "txtAdmDNI";
+            this.txtAdmDNI.Size = new System.Drawing.Size(100, 20);
+            this.txtAdmDNI.TabIndex = 70;
             // 
             // txtAdmCuil
             // 
@@ -265,6 +265,7 @@
             this.dGVAdmin.Name = "dGVAdmin";
             this.dGVAdmin.Size = new System.Drawing.Size(400, 408);
             this.dGVAdmin.TabIndex = 54;
+            this.dGVAdmin.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGVAdmin_CellClick);
             // 
             // button1
             // 
@@ -299,7 +300,7 @@
             this.Controls.Add(this.txtAdmCorreoE);
             this.Controls.Add(this.txtAdmContacAltern);
             this.Controls.Add(this.txtAdmContacto);
-            this.Controls.Add(this.txtAdmTitular);
+            this.Controls.Add(this.txtAdmDNI);
             this.Controls.Add(this.txtAdmCuil);
             this.Controls.Add(this.txtAdmNombre);
             this.Controls.Add(this.txtAdmApellido);
@@ -335,7 +336,7 @@
         private System.Windows.Forms.TextBox txtAdmCorreoE;
         private System.Windows.Forms.TextBox txtAdmContacAltern;
         private System.Windows.Forms.TextBox txtAdmContacto;
-        private System.Windows.Forms.TextBox txtAdmTitular;
+        private System.Windows.Forms.TextBox txtAdmDNI;
         private System.Windows.Forms.TextBox txtAdmCuil;
         private System.Windows.Forms.TextBox txtAdmNombre;
         private System.Windows.Forms.TextBox txtAdmApellido;

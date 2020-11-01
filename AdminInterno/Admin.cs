@@ -63,6 +63,18 @@ namespace AdminInterno
                 else
                     MessageBox.Show("No hay PosiblesTitulares cargados en el sistema");
             }
+
+        private void dGVAdmin_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtAdmApellido.Text = dGVAdmin.CurrentRow.Cells[1].Value.ToString();
+            txtAdmNombre.Text = dGVAdmin.CurrentRow.Cells[2].Value.ToString();
+            txtAdmCuil.Text = dGVAdmin.CurrentRow.Cells[3].Value.ToString();
+            txtAdmDNI.Text = dGVAdmin.CurrentRow.Cells[4].Value.ToString();
+            txtAdmContacto.Text = dGVAdmin.CurrentRow.Cells[5].Value.ToString();
+            txtAdmContacAltern.Text = dGVAdmin.CurrentRow.Cells[6].Value.ToString();
+            txtAdmCorreoE.Text = dGVAdmin.CurrentRow.Cells[7].Value.ToString();
+
+        }
     }
     
 }
